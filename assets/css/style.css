@@ -103,7 +103,7 @@
 .titulo_noticias {
     display: flex;
     align-items: self-start;
-    height: 10%;
+    height: 15%;
     margin-bottom: 15px;
     margin-top: 0;
     font-size: 20px;
@@ -136,7 +136,7 @@
     text-decoration: none;
     font-size: .875em;
     text-align: right;
-    height: 20%;
+    height: 15%;
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -151,7 +151,7 @@
 .not_footer p {
     flex: 0 0 auto;
     color: #2196F3;
-    margin: 0;
+    margin-top: 10px;
 }
 
 .img_pie {
