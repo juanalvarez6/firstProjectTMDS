@@ -1,0 +1,58 @@
+.cont_form{
+    display: flex;
+    justify-content: center;
+    padding: 30px 5px 30px 5px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.form{
+    padding: 40px 60px;
+    background-color: #000064;
+    border-radius: 10px;
+}
+.text_form h2, .input label, .olv_pass a, .text_form p{
+    color: #fff;
+}
+.text_form h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+}
+.text_form p{
+    font-size: 22px;
+    text-align: center;
+}
+.input label{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.olv_pass a{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.input input{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    outline: none;
+}
+.input input[type="submit"]{
+    background-color: #000000;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    transition: background-color .3s ease-in-out;
+}
+.input input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #001939;
+}
