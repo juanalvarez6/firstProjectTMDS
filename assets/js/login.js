@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const user = document.querySelector('#usuario').value;
         const password = document.querySelector('#contraseña').value;
 
-        fetch('../data/users.json')
+        fetch('./data/users.json')
         .then(response => response.json())
         .then(data => {
-            
+
             console.log(data);
             window.location.href = "admin.html";
         })
