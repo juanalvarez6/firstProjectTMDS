@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Frutas"      
+    },
+    {
+      "id": 2,
+      "name": "Verduras"
+      },
+    {
+      "id": 3,
+      "name": "Carnes"
+    },
+    {
+      "id": 4,
+      "name": "Lácteos"
+    },
+    {
+      "id": 5,
+      "name": "Bebidas"
+    },
+    {
+      "id": 6,
+      "name": "Pescados y Mariscos"
+      },
+    {
+      "id_categoria": 7,
+      "name": "Panadería"
+    },
+    {
+      "id": 8,
+      "name": "Cuidado Personal"
+    },
+    {
+      "id": 9,
+      "name": "Electrodomésticos"
+    },
+    {
+      "id": 10,
+      "name": "Artículos de Limpieza"
+    },
+    {
+      "id": 11,
+      "name": "Bebidas Alcohólicas"
+    },
+    {
+        "id": 12,
+        "name": "Condimentos y Salsas"
+    },
+    {
+        "id": 13,
+        "name": "Mascotas"
+    },
+    {
+        "id": 14,
+        "name": "Ropa"
+    },
+    {
+        "id": 15,
+        "name": "products Orgánicos"
+    },
+    {
+        "id": 16,
+        "name": "Hogar y Decoración"
+    },
+    {
+        "id": 17,
+        "name": "Juguetes"
+    },
+    {
+        "id": 18,
+        "name": "Librería"
+    },
+    {
+        "id": 19,
+        "name": "Electrónicos"
+    },
+    {
+        "id": 20,
+        "name": "Instrumentos Musicales"
+    }
+]
+  

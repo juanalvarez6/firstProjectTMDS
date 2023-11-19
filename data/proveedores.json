@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Proveedor A",
+      "address": "Calle Principal 123",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Proveedor B",
+      "address": "Avenida Secundaria 456",
+      "phone": "987-654-3210"
+    },
+    {
+      "id": 3,
+      "name": "Proveedor C",
+      "address": "Calle de Ejemplo 789",
+      "phone": "567-890-1234"
+    },
+    {
+      "id": 4,
+      "name": "Proveedor D",
+      "address": "Avenida de Muestra 321",
+      "phone": "234-567-8901"
+    },
+    {
+      "id": 5,
+      "name": "Proveedor E",
+      "address": "Calle de Prueba 876",
+      "phone": "678-901-2345"
+    },
+    {
+      "id": 6,
+      "name": "Proveedor F",
+      "address": "Avenida Demo 543",
+      "phone": "345-678-9012"
+    },
+    {
+      "id": 7,
+      "name": "Proveedor G",
+      "address": "Calle Imaginaria 210",
+      "phone": "901-234-5678"
+    },
+    {
+      "id": 8,
+      "name": "Proveedor H",
+      "address": "Avenida Ficticia 765",
+      "phone": "432-109-8765"
+    },
+    {
+      "id": 9,
+      "name": "Proveedor I",
+      "address": "Calle de Fantasía 543",
+      "phone": "210-987-6543"
+    },
+    {
+      "id": 10,
+      "name": "Proveedor J",
+      "address": "Avenida Irreal 876",
+      "phone": "789-012-3456"
+    }
+]
+  

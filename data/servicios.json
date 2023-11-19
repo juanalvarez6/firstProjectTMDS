@@ -1,0 +1,37 @@
+[
+    {
+        "titulo": "Productos",
+        "icono": "<i class=\"bi bi-cart-fill\"></i>",
+        "descripción": "Facilita la entrada y almacenamiento eficiente de información detallada sobre productos, incluyendo descripción, categoría, precio y cantidad inicial. Con esta función, los usuarios pueden mantener un catálogo actualizado de todos los productos en existencia."
+    },
+
+    {
+        "titulo": "Usuarios",
+        "icono": "<i class=\"bi bi-people-fill text-dark\"></i>",
+        "descripción": "Permite la asignación de roles y permisos a los usuarios. Esta función garantiza la seguridad de los datos al restringir el acceso a información sensible, asegurando que cada usuario tenga las autorizaciones adecuadas según su función en la organización."
+    },
+
+    {
+        "titulo": "Seguimiento",
+        "icono": "<i class=\"bi bi-arrow-left-right text-primary\"></i>",
+        "descripción": "Proporciona una visión en tiempo real de las existencias disponibles. Los usuarios pueden monitorear de manera efectiva los niveles de inventario, lo que facilita la toma de decisiones informadas sobre reabastecimiento y gestión de productos."
+    },
+
+    {
+        "titulo": "Escalabilidad",
+        "icono": "<i class=\"bi bi-bar-chart-fill text-info\"></i>",
+        "descripción": "Diseñado para manejar eficientemente un volumen creciente de datos a medida que la empresa expande sus operaciones. La capacidad de escalabilidad garantiza que el software pueda adaptarse a las necesidades cambiantes y al crecimiento del negocio sin comprometer el rendimiento."
+    },
+
+    {
+        "titulo": "Alertas",
+        "icono": "<i class=\"bi bi-exclamation-octagon-fill text-danger\"></i>",
+        "descripción": "Envia notificaciones automáticas cuando los niveles de existencias alcanzan un umbral mínimo predefinido. Esta función ayuda a prevenir la falta de existencias, permitiendo a los usuarios realizar reabastecimientos oportunos y garantizando la continuidad de las operaciones comerciales."
+    },
+
+    {
+        "titulo": "Ajustes",
+        "icono": "<i class=\"bi bi-gear-fill text-dark\"></i>",
+        "descripción": "Automatiza el proceso de actualización de cantidades disponibles al recibir nuevos products o realizar ventas. Esta característica ayuda a evitar discrepancias y asegura que los registros de inventario estén siempre sincronizados con las operaciones comerciales."
+    }
+]

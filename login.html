@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/login.css">
     <title>Ingresar</title>
 </head>
 <body>
-    <header>  
-        <div class="fondo">
-            <h1 class="titulo">Primera Pagina de Tecnicas de Modelado</h1>
-        </div>   
-        <div class="menu_nav">
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
-            <div class="forms">
-                <a href="login.html">Ingresar</a>
-                <a href="#">Registrarse</a>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <h1 class="name text-light"><a href="index.html" class="text-light">Inventory System</a></h1>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand text-light" href="index.html">Inventory System</a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="index.html#acercade">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="index.html#servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
     <main class="cont_form">
         <form class="form">
@@ -31,11 +41,11 @@
             </div>
             <div class="input">
                 <label for="usuario">Usuario</label>
-                <input placeholder="Ingresa tu usuario" type="text" id="usuario">
+                <input placeholder="Ingresa tu usuario" type="text" id="usuario" required>
             </div>
             <div class="input">
                 <label for="contraseña">Contraseña</label>
-                <input placeholder="Ingresa tu contraseña" type="password" id="contraseña">
+                <input placeholder="Ingresa tu contraseña" type="password" id="contraseña" required>
             </div>
             <div class="olv_pass">
                 <a href="#">¿Olvidaste tu contraseña?</a>
@@ -45,34 +55,44 @@
             </div>
         </form>
     </main>
-    <footer class="cont_footer w-100" id="contacto">
-        <div class="img_pie">
-            <img src="./assets/images/Logo-UTP-Azul.png" alt="Identificador UTP" width="150">
-        </div>
-        <div class="info_pie w-100">
-			Ipsum dolor sit amet, consectetur adipisicing elit. Harum accusamus quasi
-            <br> 
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore sequi omnis
-            <br>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ad, nisi veritatis molestias nam
-            <br>
-			Tel: +57 606 3164567 - Línea gratuita de Quejas y Reclamos: 01800065757567 - 
-            <br>
-            <strong>correo.contacto@gmail.com</strong>
-            <br>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            <br>
-            - Horario de atención: Lunes a Viernes de 8:00am a 12:00m y de 2:00pm a 6:00pm - 
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolores
-            <br>
-            amet consectetur adipisicing elit. quasi saepe maxime voluptas doloribus recusandae  consectetur adipisicing
-            <br>
-            - sit amet Voluptatem fugit laborum amet consectetur adipisicing elit. Officia maxime enim vero fugiat
-            <br> 
-            <a>Loluptatem ipsa similique provident error esse! Voluptatem fugit laborum alias voluptate animi aliquam laboriosam.</a>
-        </div>
+    <footer id="contacto">
+      <div class="row cont-foot">
+          <div class="inventory-system col d-flex flex-column child">
+              <h5 class="text-light text-center">Inventory System</h5>
+              <p class="text-light text-center mb-2"><i class="bi bi-telephone"></i> 606 1234567</p>
+              <p class="text-light text-center mb-2"><i class="bi bi-whatsapp"></i> (+57) 3125678040</p>
+              <p class="text-light text-center mb-2"><i class="bi bi-envelope-at"></i> info@inventory.com</p>
+              <p class="text-light text-center mb-2"><i class="bi bi-geo-alt"></i> Calle 00 # 11A - 11<br>Pereira - Colombia</p>
+          </div>
+          <div class="col d-flex flex-column child">
+              <h5 class="text-light text-center">Redes Sociales</h5>
+              <a href="#" class="text-light text-center mb-2"><i class="bi bi-facebook"></i> Facebook</a>
+              <a href="#" class="text-light text-center mb-2"><i class="bi bi-twitter-x"></i> Twiter</a>
+              <a href="#" class="text-light text-center mb-2"><i class="bi bi-instagram"></i> Instagram</a>
+          </div>
+          <div class="col">
+              <h5 class="text-light text-center">Contáctenos</h5>
+              <form action="">
+                  <div class="mb-2">
+                      <input type="text" class="form-control cont-fom-int " id="nombre" placeholder="Nombre">
+                  </div>
+                  <div class="mb-2">
+                      <input type="number" class="form-control cont-fom-int" id="telefono" placeholder="Teléfono - Celular">
+                  </div>
+                  <div class="mb-2">
+                      <input type="email" class="form-control cont-fom-int " id="correo" placeholder="Correo">
+                  </div>
+                  <div class="mb-2">
+                      <textarea class="form-control cont-fom-int " id="comentarios" rows="2" placeholder="Comentarios"></textarea>
+                  </div>
+                  <div class="d-flex justify-content-end">
+                      <button type="submit" class="btn btn-warning">Enviar</button>
+                  </div>
+              </form>
+          </div>
+      </div>
     </footer>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/js/login.js"></script>
 </body>
 </html>

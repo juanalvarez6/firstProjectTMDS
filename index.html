@@ -1,88 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/normalize.css">
-    <title>Pagina Principal</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Inicio</title>
 </head>
 <body>
-    <header>  
+    <header>
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <h1 class="name text-light"><a href="index.html" class="text-light">Inventory System</a></h1>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand text-light" href="index.html">Inventory System</a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#acercade">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#contacto">Contacto</a>
+                  </li>
+                  <button type="button" class="btn btn-outline-light btn-nav" ><i class="bi bi-person-fill"></i> <a href="login.html" class="d-sm-inline text-light login">Iniciar Sesión</a></button>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-outline-light btn-nav-md" ><i class="bi bi-person-fill"></i> <a href="login.html" class="d-sm-inline text-light login">Iniciar Sesión</a></button>
+            </div>
+          </nav>
+    </header>
+    <main>
         <div class="fondo">
-            <h1 class="titulo">Primera Pagina de Tecnicas de Modelado</h1>
-        </div>   
-        <div class="menu_nav">
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="index.html#noticias">Noticias</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
-            <div class="forms">
-                <a href="login.html">Ingresar</a>
-                <a href="#">Registrarse</a>
+            <div class="title-main">
+                <h2 class="text-center">¡Optimiza la gestión de inventario con Inventory System!</h2>
+                <p class="text-center">La solución integral para el control eficiente de tus activos y existencias.
+                </p>
             </div>
         </div>
-    </header>
-    <main class="contenedor">
-        <aside class="menu_lateral">
-            <nav class="main_menu">
-                <h3 class="titulo_aside">Aside</h3>
-                <ul class="main_menu_list" >
-                    <li class="main_menu_list_item">
-                        Accusamus, excepturi libero odit!
-                    </li>
-                    <li class="main_menu_list_item">
-                        Incidunt quos
-                    </li>
-                    <li class="main_menu_list_item">
-                        Expedita perspiciatis alias! Incidunt!
-                    </li>
-                    <li class="main_menu_list_item">
-                        perspiciatis Incidunt
-                    </li>
-                    <li class="main_menu_list_item">
-                        Accusamus, perspiciatis y Incidunt
-                    </li>
-                    <li class="main_menu_list_item">
-                        perspiciatis
-                    </li>
-                </ul>
-            </nav>
-        </aside>
-        <section class="cont_not" id="noticias">
-            <h2 class="not_title">Noticias</h2>
-            <div class="contenedor_noticia" id="news"></div>
+
+        <section id="acercade" class="w-100">
+            <div class="d-lg-flex flex-column flex-lg-row my-4">
+                <div class="w-lg-50 p-4 img-def">
+                    <img class="w-100" src="./assets/img/quEsIS.jpg" alt="">
+                </div>
+                <div class="w-lg-50 p-4 cont-def">
+                    <h3 class="title-def fs-1">¿Que es Inventory System?</h3>
+                    <p class="text-just">Inventory System es un software de gestión de inventario 
+                        diseñado para ayudar a las empresas a mantener un control 
+                        preciso de sus existencias. Este sistema proporciona una 
+                        interfaz intuitiva y herramientas poderosas para simplificar 
+                        la gestión de inventario y aumentar la eficiencia operativa.<br><br>
+                        Inventory System está destinado a optimizar la gestión de 
+                        inventario en diversos entornos comerciales, como tiendas 
+                        minoristas, almacenes u otros negocios que manejen inventarios 
+                        de productos. Su objetivo principal es mejorar la eficiencia, 
+                        reducir errores y garantizar un flujo de trabajo suave en lo 
+                        que respecta al manejo de existencias.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-md-row">
+                <div class="w-md-50 m-4">
+                    <h2>Misión</h2>
+                    <img src="./assets/img/mision.png" alt="" class="w-100 my-3">
+                    <p class="text-just">
+                        Facilitar y optimizar la gestión de inventarios para 
+                        empresas de diversos sectores, proporcionando una 
+                        solución integral que garantice un control preciso, 
+                        automatización eficiente y toma de decisiones informada. 
+                        Buscamos simplificar las operaciones comerciales, aumentar 
+                        la eficiencia y contribuir al crecimiento sostenible de 
+                        nuestros clientes.
+                    </p>
+                </div>
+                <div class="w-md-50 m-4">
+                    <h2>Visión</h2>
+                    <img src="./assets/img/vision.png" alt="" class="w-100 my-3">
+                    <p class="text-just">
+                        Ser la plataforma líder en gestión de inventarios, 
+                        reconocida por su innovación, confiabilidad y 
+                        capacidad de adaptación a las necesidades cambiantes 
+                        del entorno empresarial. Aspiramos a ser un socio 
+                        estratégico para las empresas, brindando herramientas 
+                        que no solo cumplen con las expectativas del presente, 
+                        sino que también anticipan y responden proactivamente a 
+                        las demandas futuras del mercado.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="">
+            <h2 class="text-primary text-center bg-primary-subtle p-2"><i class="bi bi-card-list text-dark"></i> Servicios</h2>
+            <div class="w-100 d-flex flex-wrap">
+
+            </div>
         </section>
     </main>
-    <footer class="cont_footer w-100" id="contacto">
-        <div class="img_pie">
-            <img src="./assets/images/Logo-UTP-Azul.png" alt="Identificador UTP" width="150">
-        </div>
-        <div class="info_pie w-100">
-			Ipsum dolor sit amet, consectetur adipisicing elit. Harum accusamus quasi
-            <br> 
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore sequi omnis
-            <br>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ad, nisi veritatis molestias nam
-            <br>
-			Tel: +57 606 3164567 - Línea gratuita de Quejas y Reclamos: 01800065757567 - 
-            <br>
-            <strong>correo.contacto@gmail.com</strong>
-            <br>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            <br>
-            - Horario de atención: Lunes a Viernes de 8:00am a 12:00m y de 2:00pm a 6:00pm - 
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolores
-            <br>
-            amet consectetur adipisicing elit. quasi saepe maxime voluptas doloribus recusandae  consectetur adipisicing
-            <br>
-            - sit amet Voluptatem fugit laborum amet consectetur adipisicing elit. Officia maxime enim vero fugiat
-            <br> 
-            <a>Loluptatem ipsa similique provident error esse! Voluptatem fugit laborum alias voluptate animi aliquam laboriosam.</a>
+    <footer id="contacto">
+        <div class="row cont-foot">
+            <div class="inventory-system col d-flex flex-column child">
+                <h5 class="text-light text-center">Inventory System</h5>
+                <p class="text-light text-center mb-2"><i class="bi bi-telephone"></i> 606 1234567</p>
+                <p class="text-light text-center mb-2"><i class="bi bi-whatsapp"></i> (+57) 3125678040</p>
+                <p class="text-light text-center mb-2"><i class="bi bi-envelope-at"></i> info@inventory.com</p>
+                <p class="text-light text-center mb-2"><i class="bi bi-geo-alt"></i> Calle 00 # 11A - 11<br>Pereira - Colombia</p>
+            </div>
+            <div class="col d-flex flex-column child">
+                <h5 class="text-light text-center">Redes Sociales</h5>
+                <a href="#" class="text-light text-center mb-2"><i class="bi bi-facebook"></i> Facebook</a>
+                <a href="#" class="text-light text-center mb-2"><i class="bi bi-twitter-x"></i> Twiter</a>
+                <a href="#" class="text-light text-center mb-2"><i class="bi bi-instagram"></i> Instagram</a>
+            </div>
+            <div class="col">
+                <h5 class="text-light text-center">Contáctenos</h5>
+                <form action="">
+                    <div class="mb-2">
+                        <input type="text" class="form-control cont-fom-int " id="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="mb-2">
+                        <input type="number" class="form-control cont-fom-int" id="telefono" placeholder="Teléfono - Celular">
+                    </div>
+                    <div class="mb-2">
+                        <input type="email" class="form-control cont-fom-int " id="correo" placeholder="Correo">
+                    </div>
+                    <div class="mb-2">
+                        <textarea class="form-control cont-fom-int " id="comentarios" rows="2" placeholder="Comentarios"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-warning">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </footer>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>
 </html>

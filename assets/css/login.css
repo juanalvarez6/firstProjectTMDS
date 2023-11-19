@@ -10,7 +10,7 @@ textarea {
 
 .form{
     padding: 40px 60px;
-    background-color: #000064;
+    background-color: #29292a;
     border-radius: 10px;
 }
 .text_form h2, .input label, .olv_pass a, .text_form p{
@@ -54,5 +54,5 @@ textarea {
 }
 .input input[type="submit"]:hover{
     cursor: pointer;
-    background-color: #001939;
+    background-color: #3a3939;
 }

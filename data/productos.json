@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Manzanas",
+    "category": "Frutas",
+    "supplier": "Proveedor A",
+    "buy_price": 7000.0,
+    "sale_price": 10500.0,
+    "stock": 100
+  },
+  {
+    "id": 2,
+    "name": "Lechuga",
+    "category": "Verduras",
+    "supplier": "Proveedor B",
+    "buy_price": 5250.0,
+    "sale_price": 8750.0,
+    "stock": 150
+  },
+  {
+    "id": 3,
+    "name": "Filete de Res",
+    "category": "Carnes",
+    "supplier": "Proveedor C",
+    "buy_price": 17500.0,
+    "sale_price": 28000.0,
+    "stock": 50
+  },
+  {
+    "id": 4,
+    "name": "Leche Entera",
+    "category": "Lácteos",
+    "supplier": "Proveedor D",
+    "buy_price": 10500.0,
+    "sale_price": 15750.0,
+    "stock": 200
+  },
+  {
+    "id": 5,
+    "name": "Agua Mineral",
+    "category": "Bebidas",
+    "supplier": "Proveedor E",
+    "buy_price": 3500.0,
+    "sale_price": 6300.0,
+    "stock": 120
+  },
+  {
+    "id": 6,
+    "name": "Salmón Fresco",
+    "category": "Pescados y Mariscos",
+    "supplier": "Proveedor F",
+    "buy_price": 28000.0,
+    "sale_price": 42000.0,
+    "stock": 30
+  },
+  {
+    "id": 7,
+    "name": "Pan Integral",
+    "category": "Panadería",
+    "supplier": "Proveedor G",
+    "buy_price": 8750.0,
+    "sale_price": 14000.0,
+    "stock": 80
+  },
+  {
+    "id": 8,
+    "name": "Jabón de Baño",
+    "category": "Cuidado Personal",
+    "supplier": "Proveedor H",
+    "buy_price": 6300.0,
+    "sale_price": 10500.0,
+    "stock": 100
+  },
+  {
+    "id": 9,
+    "name": "Licuadora",
+    "category": "Electrodomésticos",
+    "supplier": "Proveedor I",
+    "buy_price": 105000.0,
+    "sale_price": 175000.0,
+    "stock": 40
+  },
+  {
+    "id": 10,
+    "name": "Detergente",
+    "category": "Artículos de Limpieza",
+    "supplier": "Proveedor J",
+    "buy_price": 7000.0,
+    "sale_price": 12250.0,
+    "stock": 60
+  },
+  {
+    "id": 11,
+    "name": "Vino Tinto",
+    "category": "Bebidas Alcohólicas",
+    "supplier": "Proveedor A",
+    "buy_price": 42000.0,
+    "sale_price": 70000.0,
+    "stock": 25
+  },
+  {
+    "id": 12,
+    "name": "Salsa de Tomate",
+    "category": "Condimentos y Salsas",
+    "supplier": "Proveedor B",
+    "buy_price": 5250.0,
+    "sale_price": 9800.0,
+    "stock": 90
+  },
+  {
+    "id": 13,
+    "name": "Comida para Gatos",
+    "category": "Mascotas",
+    "supplier": "Proveedor C",
+    "buy_price": 14000.0,
+    "sale_price": 21000.0,
+    "stock": 40
+  },
+  {
+    "id": 14,
+    "name": "Camiseta",
+    "category": "Ropa",
+    "supplier": "Proveedor D",
+    "buy_price": 24500.0,
+    "sale_price": 52500.0,
+    "stock": 60
+  },
+  {
+    "id": 15,
+    "name": "Huevos Orgánicos",
+    "category": "products Orgánicos",
+    "supplier": "Proveedor E",
+    "buy_price": 12250.0,
+    "sale_price": 17500.0,
+    "stock": 70
+  },
+  {
+    "id": 16,
+    "name": "Lámpara de Mesa",
+    "category": "Hogar y Decoración",
+    "supplier": "Proveedor F",
+    "buy_price": 52500.0,
+    "sale_price": 87500.0,
+    "stock": 20
+  },
+  {
+    "id": 17,
+    "name": "Pelota de Fútbol",
+    "category": "Juguetes",
+    "supplier": "Proveedor G",
+    "buy_price": 35000.0,
+    "sale_price": 63000.0,
+    "stock": 30
+  },
+  {
+    "id": 18,
+    "name": "Cuaderno",
+    "category": "Librería",
+    "supplier": "Proveedor H",
+    "buy_price": 7000.0,
+    "sale_price": 14000.0,
+    "stock": 100
+  },
+  {
+    "id": 19,
+    "name": "Teléfono Inteligente",
+    "category": "Electrónicos",
+    "supplier": "Proveedor I",
+    "buy_price": 525000.0,
+    "sale_price": 875000.0,
+    "stock": 15
+  },
+  {
+    "id": 20,
+    "name": "Guitarra Acústica",
+    "category": "Instrumentos Musicales",
+    "supplier": "Proveedor J",
+    "buy_price": 280000.0,
+    "sale_price": 420000.0,
+    "stock": 10
+  }
+]

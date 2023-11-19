@@ -1,0 +1,63 @@
+a {
+    text-decoration: none;
+}
+
+#view-registros {
+    display: none;
+}
+
+.registro {
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.factura ul {
+    display: none;
+}
+
+.factura ul li {
+    list-style: none;
+}
+
+.factura:hover ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #262626;
+}
+
+.fact {
+    display: none;
+}
+
+.menu-link:hover {
+    background-color: #262626;
+    border-radius: 10px;
+}
+
+.menu-fact:hover{
+    background-color: #3d3d3d;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+    
+    #view-registros {
+        display: block;
+    }
+
+    #viewTables {
+        display: none;
+    }
+
+    .fact {
+        display: flex;
+    }
+
+    .factura {
+        display: none;
+    }
+}

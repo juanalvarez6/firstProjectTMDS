@@ -1,0 +1,90 @@
+[
+    {
+        "id": 54321,
+        "bill": 12345,
+        "product": "Manzanas",
+        "amount": 5,
+        "Unit_price": 10500.0,
+        "total_price": 52500.0
+    },
+    {
+        "id": 54322,
+        "bill": 12345,
+        "product": "Filete de Res",
+        "amount": 3,
+        "Unit_price": 28000.0,
+        "total_price": 84000.0
+    },
+    {
+        "id": 54323,
+        "bill": 12345,
+        "product": "Pan Integral",
+        "amount": 2,
+        "Unit_price": 14000.0,
+        "total_price": 28000.0
+    },
+    {
+        "id": 54324,
+        "bill": 12345,
+        "product": "Salsa de Tomate",
+        "amount": 4,
+        "Unit_price": 9800.0,
+        "total_price": 39200.0
+    },
+    {
+        "id": 54325,
+        "bill": 12345,
+        "product": "Teléfono Inteligente",
+        "amount": 1,
+        "Unit_price": 875000.0,
+        "total_price": 875000.0
+    },
+    {
+        "id": 54326,
+        "bill": 12346,
+        "product": "Lechuga",
+        "amount": 4,
+        "Unit_price": 8750.0,
+        "total_price": 35000.0
+    },
+    {
+        "id": 54327,
+        "bill": 12346,
+        "product": "Leche Entera",
+        "amount": 2,
+        "Unit_price": 15750.0,
+        "total_price": 31500.0
+    },
+    {
+        "id": 54328,
+        "bill": 12346,
+        "product": "Jabón de Baño",
+        "amount": 3,
+        "Unit_price": 10500.0,
+        "total_price": 31500.0
+    },
+    {
+        "id": 54329,
+        "bill": 12346,
+        "product": "Detergente",
+        "amount": 1,
+        "Unit_price": 12250.0,
+        "total_price": 12250.0
+    },
+    {
+        "id": 54330,
+        "bill": 12346,
+        "product": "Salsa de Tomate",
+        "amount": 5,
+        "Unit_price": 9800.0,
+        "total_price": 49000.0
+    },
+    {
+        "id": 54331,
+        "bill": 12346,
+        "product": "Camiseta",
+        "amount": 2,
+        "Unit_price": 52500.0,
+        "total_price": 105000.0
+    }
+]
